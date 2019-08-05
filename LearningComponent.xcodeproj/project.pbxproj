@@ -84,6 +84,7 @@
 		8466FB8622F7F547000D8CF1 = {
 			isa = PBXGroup;
 			children = (
+				8466FBC722F837C7000D8CF1 /* ComponentGroup */,
 				8466FB9122F7F547000D8CF1 /* LearningComponent */,
 				8466FBAA22F7F548000D8CF1 /* LearningComponentTests */,
 				8466FBB522F7F549000D8CF1 /* LearningComponentUITests */,
@@ -108,8 +109,6 @@
 				8466FB9322F7F547000D8CF1 /* AppDelegate.m */,
 				8466FB9522F7F547000D8CF1 /* ViewController.h */,
 				8466FB9622F7F547000D8CF1 /* ViewController.m */,
-				8466FBC422F7F579000D8CF1 /* ComponentController.h */,
-				8466FBC522F7F579000D8CF1 /* ComponentController.m */,
 				8466FB9822F7F547000D8CF1 /* Main.storyboard */,
 				8466FB9B22F7F548000D8CF1 /* Assets.xcassets */,
 				8466FB9D22F7F548000D8CF1 /* LaunchScreen.storyboard */,
@@ -135,6 +134,15 @@
 				8466FBB822F7F549000D8CF1 /* Info.plist */,
 			);
 			path = LearningComponentUITests;
+			sourceTree = "<group>";
+		};
+		8466FBC722F837C7000D8CF1 /* ComponentGroup */ = {
+			isa = PBXGroup;
+			children = (
+				8466FBC422F7F579000D8CF1 /* ComponentController.h */,
+				8466FBC522F7F579000D8CF1 /* ComponentController.m */,
+			);
+			path = ComponentGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
